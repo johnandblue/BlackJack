@@ -1,0 +1,166 @@
+body {
+	background: #065d70;
+
+}
+.container{
+/*   position: absolute;
+   top: 20%;
+   margin-top: -200px; half of #content height
+   left: 0;*/
+   width: 100%;
+
+   }
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/img_var/Blackjack_table.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: solid black;
+ 	width: 1200px;
+ 	height: 800px;
+}
+#sign {
+	position: absolute;
+	color: white;
+	margin-top: 750px;
+	margin-left: 15px;
+	font-family: geneva;
+	font-size: 14px;
+}
+
+#div_cover {
+	position: absolute;
+	text-align: center;
+	margin-left: 600px;
+	margin-top: 110px;
+	height: 100px;
+	width: 100px;
+}
+
+#div_Dealer1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	height: 100px;
+	width: 700px;
+}
+
+
+#div_Player1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 225px;
+	height: 100px;
+	width: 700px;
+}
+
+#scorePlayer1 {
+	position: absolute;
+	-ms-display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	color: white;
+	border-radius: 10px;
+	background-color: black;
+	margin-left: 500px;
+	margin-top: 595px;
+}
+
+#situation {
+	position: absolute;
+	-ms-display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 24px;
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	color: white;
+	border-radius: 10px;
+	background-color: black;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#scoreDealer1 {
+	position: absolute;
+	-ms-display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	color: white;
+	border-radius: 10px;
+	background-color: black;
+	margin-left: 500px;
+	margin-top: 270px;
+}
+
+#dealCards {
+	position: absolute;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 16px;
+	height: 75px;
+	width: 75px;
+	border-radius: 75px;
+	color: blue;
+	margin-left: 50px;
+	margin-top: 375px;
+}
+
+#restart {
+	position: absolute;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 16px;
+	height: 75px;
+	width: 75px;
+	border-radius: 75px;
+	color: red;
+	margin-left: 50px;
+	margin-top: 375px;
+}
+
+#hit {
+	position: absolute;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 16px;
+	height: 75px;
+	width: 75px;
+	border-radius: 75px;
+	color: green;
+	margin-left: 150px;
+	margin-top: 415px;
+}
+#stand {
+	position: absolute;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 16px;
+	height: 75px;
+	width: 75px;
+	border-radius: 75px;
+	color: red;
+	margin-left: 250px;
+	margin-top: 455px;
+}
+
